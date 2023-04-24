@@ -40,37 +40,7 @@ ALTER TABLE customers ADD INDEX idx_full_name(contactFirstName, contactLastName)
 
  ALTER TABLE customers DROP INDEX idx_full_name;
  
- Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
  
-@ThangNP03 
-khoamak246
-/
-MD4_JAVA_BE
-Public
-Fork your own copy of khoamak246/MD4_JAVA_BE
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Beta Try the new code view
-MD4_JAVA_BE/Practice/Session5_ View_Index_Stored procedure/Stored_Procedure_With_Parameter.sql
-@khoamak246
-khoamak246 first commit
-Latest commit 69996c6 last week
- History
- 1 contributor
-70 lines (34 sloc)  835 Bytes
- 
-
 DELIMITER //
 
 CREATE PROCEDURE getCusById
